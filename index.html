@@ -3,31 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pramudi - Portfolio</title>
+    <title>Pramudika Nirmani - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>pramudi nirmani</h1>
-            <p> | Designer | Tech Enthusiast</p>
-            <p>UWU University</p>
+            <h1>Pramudika Nirmani</h1>
+            <p class="subtitle">Undergraduate in Mechanical Engineering</p>
+            <p>University of Uva Wellassa, Sri Lanka</p>
+            <button class="theme-toggle" onclick="toggleDarkMode()">🌙 Toggle Dark Mode</button>
         </header>
 
         <!-- About Me Section -->
         <div class="section">
             <h2>About Me</h2>
-            <p>Hello! I'm pramudi, a passionate web developer with a love for clean, modern designs. I specialize in creating sleek, user-friendly websites using cutting-edge technologies.</p>
+            <p>
+                Hello! I'm Pramudika Nirmani, an ICT student with a passion for creating innovative solutions using technology.
+                My goal is to leverage my skills to contribute to impactful projects in the ever-evolving tech industry.
+            </p>
         </div>
-        
+
+        <!-- Projects Section -->
+        <div class="section">
+            <h2>Projects</h2>
+            <ul class="project-list">
+                <li><strong>Smart Appointment System:</strong> Simplifies university attendance and scheduling.</li>
+                <li><strong>HR Management System:</strong> Efficient management of employees in large organizations.</li>
+                <li><strong>To-Do App:</strong> Organizes tasks with reminders and priorities.</li>
+            </ul>
+        </div>
+
         <!-- Contact Section -->
         <div class="section">
             <h2>Contact</h2>
-            <p>Feel free to reach out to me:</p>
             <ul>
-                <li>Email: pramudi@example.com</li>
-                <li>LinkedIn: <a href="https://linkedin.com" target="_blank">pramudi</a></li>
-                <li>GitHub: <a href="https://github.com" target="_blank">pramudi</a></li>
+                <li>Email: <a href="mailto:pramudikanirmani00@gmail.com">pramudikanirmani00@gmail.com</a></li>
+                <li>LinkedIn: <a href="https://linkedin.com/in/pramudika-nirmani" target="_blank">pramudika nirmani</a></li>
+                <li>GitHub: <a href="https://github.com/pramudi98" target="_blank">pramudi98</a></li>
             </ul>
 
             <!-- Contact Form -->
@@ -36,7 +49,7 @@
                 <input type="text" id="name" placeholder="Your Name" required>
                 <input type="email" id="email" placeholder="Your Email" required>
                 <textarea id="message" placeholder="Your Message" required></textarea>
-                <button type="submit">Submit</button>
+                <button type="submit">Send Message</button>
             </form>
         </div>
     </div>
